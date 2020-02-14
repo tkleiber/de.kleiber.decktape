@@ -1,0 +1,8 @@
+= Jenkins pipeline to convert presentations via decktape to PDF
+
+. Fork this repository and ddd this pipeline via Jenkins Blue Ocean.
+. Modify the parameters for your needs.
+. Run the pipeline against an jenkins agent with docker intalled.
+. If you want to show the pdf file direct fromt the artifacts, you have to configure Jenkins like described here:
++
+https://issues.jenkins-ci.org/browse/JENKINS-33195
